@@ -14,7 +14,7 @@ cd mtkclient
 pip -r install requirements.txt
 git clone https://github.com/coloredmarble/redmi_9a_mtkclient
 cp redmi_9a_mtkclient/* .
-// power off phone. press volump up and volume down at same time. connect phone to usb cable
+# power off phone. press volump up and volume down at same time. connect phone to usb cable
 py mtk da seccfg unlock --preload preloader_k62v1_64_bsp.bin --loader n.bin
 ```
 
