@@ -1,5 +1,6 @@
-extracted files + roms
+## this is a mirror + tutorial. i will try to credit as much as possible. 
 
+extracted files + roms
 
 ## unlocking bootloader
 
@@ -23,3 +24,5 @@ py mtk da seccfg unlock --preload preloader_k62v1_64_bsp.bin --loader n.bin
 
 for me it took like 5 hours to figure this shit out. worth it 
 
+## roms
+Arrow OS available in releases. flash firmware instad of miui from files
