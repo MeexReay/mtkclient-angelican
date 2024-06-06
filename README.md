@@ -41,7 +41,7 @@ MTK devices tends to be a little whiny:
 3. flash arrowos
 4. flash magisk (i didint select wipe cache/dalvik. i dont think you should)
 5. reboot to system and install magisk
-6. install magisk module microg https://github.com/friendlyneighborhoodshane/minmicrog_releases/releases
+6. install magisk module microg https://github.com/friendlyneighborhoodshane/minmicrog_releases/releases (recommend nogoolag)
 
 it may or may not boot depending on the phone's mood
 
