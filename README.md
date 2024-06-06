@@ -24,8 +24,25 @@ py mtk da seccfg unlock --preload preloader_k62v1_64_bsp.bin --loader n.bin
 
 for me it took like 5 hours to figure this shit out. worth it 
 
+## recovery
+use this one
+https://xdaforums.com/t/recovery-pbrp-3-1-0-pitchblackrecoveryproject-unified-for-redmi-9a-9c-9-activ-garden-stable.4363653/
+
 ## firmware
 firmware in releases. pick one
 
 ## roms
 Arrow OS available in releases. flash firmware instad of miui from releases
+
+### flashing arrowOS
+MTK devices tends to be a little whiny:
+1. wipe data + cache + dalvik
+2. format data
+3. flash arrowos
+4. flash magisk (i didint select wipe cache/dalvik. i dont think you should)
+5. reboot to system and install magisk
+6. install magisk module microg https://github.com/friendlyneighborhoodshane/minmicrog_releases/releases
+
+it may or may not boot depending on the phone's mood
+
+
