@@ -45,4 +45,6 @@ MTK devices tends to be a little whiny:
 
 it may or may not boot depending on the phone's mood
 
+also if you manage to boot. it works insanely well on a phone with 2 small bricks of ram
+
 
