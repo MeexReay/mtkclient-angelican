@@ -24,5 +24,8 @@ py mtk da seccfg unlock --preload preloader_k62v1_64_bsp.bin --loader n.bin
 
 for me it took like 5 hours to figure this shit out. worth it 
 
+## firmware
+firmware in releases. pick one
+
 ## roms
-Arrow OS available in releases. flash firmware instad of miui from files
+Arrow OS available in releases. flash firmware instad of miui from releases
