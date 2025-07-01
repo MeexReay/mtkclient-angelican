@@ -40,5 +40,5 @@ mtkclient w tee1 images/tee.img
 mtkclient w tee2 images/tee.img 
 mtkclient w super images/super.img 
 mtkclient w cache images/cache.img 
-mtkclient w userdata images/userdata.img 
-mtkclient reset
+mtkclient w userdata images/userdata.img
+python mtk.py reset
