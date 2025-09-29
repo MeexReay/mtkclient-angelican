@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo sudo usermod -a -G plugdev $USER
+sudo usermod -a -G plugdev $USER
+echo sudo usermod -a -G dialout $USER
+sudo usermod -a -G dialout $USER
+echo sudo cp mtkclient/Setup/Linux/*.rules /etc/udev/rules.d
+sudo cp mtkclient/Setup/Linux/*.rules /etc/udev/rules.d
+echo sudo udevadm control -R
+sudo udevadm control -R
+echo sudo udevadm trigger
+sudo udevadm trigger
