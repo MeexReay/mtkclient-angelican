@@ -24,3 +24,5 @@ hwparam.json
 out/
 
 expdb.img
+
+.state
