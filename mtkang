@@ -1,13 +1,13 @@
 #!/bin/sh
 
 if [ command -v mtkclient ]; then
-mtkclient "$@" --preload preloader_k62v1_64_bsp.bin --loader n.bin
+mtkclient "$@" --preload preload.bin --loader loader.bin
 exit
 fi
 if [ ! -d .venv ]; then
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
 fi
-.venv/bin/python mtk.py "$@" --preload preloader_k62v1_64_bsp.bin --loader n.bin
+.venv/bin/python mtk.py "$@" --preload preload.bin --loader loader.bin
 
 
