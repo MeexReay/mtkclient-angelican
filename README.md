@@ -1,6 +1,8 @@
 ### mtkclient
 
-to use mtkclient, run ./install_udev_rules at first \
+install dependenices: libusb libfuse
+
+to use mtkclient, run ./setup_udev at first \
 then you can use mtkclient via ./mtk as normal:
 
 ```
@@ -17,7 +19,7 @@ otherwise it will create python virtual env and run mtk.py with all the requirem
 its a tool to extract lk and kernel logs from device via mtkclient:
 
 ```
-python extract_expdb.py
+./extract_expdb.py
 ```
 
 it reads expdb.img from device and unpacks it to out/ folder
