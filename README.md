@@ -1,13 +1,13 @@
 ### mtkclient
 
 to use mtkclient, run ./install_udev_rules at first \
-then you can use mtkclient via ./mtkang as normal:
+then you can use mtkclient via ./mtk as normal:
 
 ```
-./mtkang --help
+./mtk --help
 ```
 
-it automatically provides --preload and --loader args to mtkclient
+or use ./mtkang that automatically puts --preload and --loader args to mtkclient
 
 it will use mtkclient global command if exists, \
 otherwise it will create python virtual env and run mtk.py with all the requirements \

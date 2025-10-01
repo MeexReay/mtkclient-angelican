@@ -16,4 +16,4 @@
 ./mtkang w super images/super.img 
 ./mtkang w cache images/cache.img 
 ./mtkang w userdata images/userdata.img
-echo "unplug and hold power button"
+./mtk reset

@@ -1,13 +1,3 @@
 #!/bin/sh
 
-if [ command -v mtkclient ]; then
-mtkclient "$@" --preload preload.bin --loader loader.bin
-exit
-fi
-if [ ! -d .venv ]; then
-python -m venv .venv
-.venv/bin/pip install -r requirements.txt
-fi
-.venv/bin/python mtk.py "$@" --preload preload.bin --loader loader.bin
-
-
+./mtk "$@" --preload preload.bin --loader loader.bin
