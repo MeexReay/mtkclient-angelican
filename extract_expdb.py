@@ -15,7 +15,7 @@ def sanitize_logs(logs):
 
 
 def main():
-    f = open('expdb', 'r', encoding='ISO-8859-1')
+    f = open('expdb.img', 'r', encoding='ISO-8859-1')
     lines = f.readlines()
     dumps = []
     dump = {}
