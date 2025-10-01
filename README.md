@@ -12,7 +12,7 @@ then you can use mtkclient via ./mtk as normal:
 or use ./mtkang that automatically puts --preload and --loader args to mtkclient
 
 it will use mtkclient global command if exists, \
-otherwise it will create python virtual env and run mtk.py with all the requirements \
+otherwise it will create python virtual env and run mtk.py with all the requirements
 
 ### extract_expdb
 
