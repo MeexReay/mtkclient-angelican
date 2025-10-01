@@ -12,7 +12,7 @@ then you can use mtkclient via ./mtk as normal:
 use ./mtkang to put these args automatically: 
 
 ```
-./mtkang prnitgpt
+./mtkang printgpt
 ```
 
 it will use mtkclient global command if exists, \
