@@ -6,10 +6,14 @@ to use mtkclient, run ./setup_udev at first \
 then you can use mtkclient via ./mtk as normal:
 
 ```
-./mtk --help
+./mtk printgpt --preload bin/preload.bin --loader bin/loader.bin
 ```
 
-or use ./mtkang that automatically puts --preload and --loader args to mtkclient
+use ./mtkang to put these args automatically: 
+
+```
+./mtkang prnitgpt
+```
 
 it will use mtkclient global command if exists, \
 otherwise it will create python virtual env and run mtk.py with all the requirements
